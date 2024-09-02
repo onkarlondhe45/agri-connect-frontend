@@ -1,0 +1,82 @@
+
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-container form div {
+  margin-bottom: 15px;
+}
+
+.signup-container form label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.signup-container form input,
+.signup-container form select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.signup-container form button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-container form button:hover {
+  background-color: #218838;
+}
+
+.signup-container form select {
+  appearance: none;
+}
+
+.signup-container form select:focus,
+.signup-container form input:focus {
+  border-color: #80bdff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.signin-link {
+  margin-top: 20px;
+}
+
+.signin-link button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signin-link button:hover {
+  background-color: #0056b3;
+}
