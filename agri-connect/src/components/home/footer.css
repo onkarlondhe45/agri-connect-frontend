@@ -1,0 +1,19 @@
+.footer {
+    padding: 15px 0; /* Smaller padding for compact layout */
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .footer .small {
+    font-size: 0.875rem;
+  }
+  
+  .footer .text-center {
+    text-align: center;
+  }
+  
+  .footer h6 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  

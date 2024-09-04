@@ -1,0 +1,23 @@
+/* Ensure the home-wrapper takes full height and flex direction is column */
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+.content-section {
+  flex: 1; /* Allow the content section to grow and push footer down */
+  background-image: url('https://wallpapers.com/images/featured/sustainable-agriculture-t1tte6fs05hrpkyc.jpg'); /* Background image */
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-position: center; /* Center the image */
+  padding: 20px 0; /* Adjust padding as needed */
+  color: green;
+}
+
+/* Footer specific styling */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}

@@ -80,3 +80,28 @@
 .signin-link button:hover {
   background-color: #0056b3;
 }
+
+.icon-green {
+  color: green;
+  font-size: 24px; /* Optional: adjust the size if needed */
+  margin-right: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://wallpapers.com/images/featured/sustainable-agriculture-t1tte6fs05hrpkyc.jpg'); /* Background image */
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  font-family: Arial, sans-serif; /* Optional: Set a default font for the page */
+}
+
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(244, 244, 244, 0.8); /* Semi-transparent background */
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+}

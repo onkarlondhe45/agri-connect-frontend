@@ -1,0 +1,36 @@
+.icon-green {
+    color: green;
+    font-size: 24px; /* Optional: adjust the size if needed */
+    margin-right: 10px;
+  }
+  /* Ensure the home-wrapper takes full height */
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+/* Content section should expand to fill available space */
+.content-section {
+  flex-grow: 1; /* Makes this section take up remaining space */
+  padding: 50px 0; /* Adds padding for spacing */
+  text-align: center; /* Optional: Center content */
+}
+
+/* Footer specific styling */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.content-section {
+    background-image: url('https://wallpapers.com/images/featured/sustainable-agriculture-t1tte6fs05hrpkyc.jpg'); /* Background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    padding: 20px 0; /* Adjust padding as needed */
+    color: green;
+
+  }
+  
